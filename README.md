@@ -1,5 +1,10 @@
 # cpp-algorithms-datastructures
 
+![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
+![GitHub stars](https://img.shields.io/github/stars/saqibbedar/dsa.svg)
+![GitHub forks](https://img.shields.io/github/forks/saqibbedar/dsa.svg)
+![GitHub issues](https://img.shields.io/github/issues/saqibbedar/dsa.svg)
+
 Structured **Data Structures & Algorithms (DSA) in C++**: topic-wise implementations, labs, assignments, revision notes, and interview practice.
 
 > This repository is organized “folder-first” so you can study one topic at a time, run code locally, and build strong fundamentals for problem solving and coding interviews.
