@@ -1,136 +1,118 @@
-# DSA in C++
+# cpp-algorithms-datastructures
 
-![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
-![GitHub stars](https://img.shields.io/github/stars/saqibbedar/DSA.svg)
-![GitHub forks](https://img.shields.io/github/forks/saqibbedar/DSA.svg)
-![GitHub issues](https://img.shields.io/github/issues/saqibbedar/DSA.svg)
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=saqibbedar.DSA)
+Structured **Data Structures & Algorithms (DSA) in C++**: topic-wise implementations, labs, assignments, revision notes, and interview practice.
 
-Comprehensive repository for mastering Data Structures and Algorithms (DSA) in C++. This repo is organized in a structured, folder-first way so you can learn topic by topic, read full implementations, and revise later without losing the roadmap.
+> This repository is organized “folder-first” so you can study one topic at a time, run code locally, and build strong fundamentals for problem solving and coding interviews.
 
-Repository focus:
-- C++ implementations of data structures and algorithms
-- A structured learning path (topics, labs, assignments, revision)
-- Code you can study deeply and run locally
+---
 
-## Who this repository is for
+## What’s inside (high level)
 
-This repo is useful if you are:
-- learning DSA from scratch in C++
-- preparing for interviews and want clean topic-wise practice
-- looking for implemented data structures you can read and analyze
-- a developer who wants to contribute improvements or new topics
+- **Topic-wise DSA implementations (C++)**  
+  Path: `Data Structures & Algorithms/`
+- **Assignments** (coursework-style practice)  
+  Path: `Assignments/`
+- **DSA Friday Lab** (lab-style practice to build consistency)  
+  Path: `DSA Friday Lab/`
+- **Quick C++ Revision** (C++ concepts used frequently in DSA)  
+  Path: `Quick C++ Revision/`
+- **Past Papers** (exam-style / revision material)  
+  Path: `Past Papers/`
+- **Docker guide** (notes for a consistent environment)  
+  Path: `docker-guide/`
+- **Notes/structure helpers** (`NOTES.yaml` and other YAML files)  
+  These help document folders and keep the repo navigable.
 
-## Quick start
+---
 
-If you only open one folder, start here:
+## Recommended way to use this repo
 
-Data Structures and Algorithms:
-https://github.com/saqibbedar/dsa/tree/main/Data%20Structures%20%26%20Algorithms
+1. Start from the main folder:  
+   `Data Structures & Algorithms/`
+2. Pick **one** topic folder (example: `LinkedList`, `Stack`, `Queue`, `Sorting Algorithms`).
+3. Read the code, trace the logic, and run it locally.
+4. Modify it:
+   - add edge cases
+   - add missing operations
+   - refactor for clarity
+5. Move to the next topic.
 
-## How to explore this repository
+Tip: progress becomes much faster when you go **topic-by-topic** instead of jumping randomly.
 
-Recommended way to use this repo:
-1. Pick one topic folder inside `Data Structures & Algorithms`
-2. Read the implementation and trace the logic
-3. Run the code locally
-4. Modify or extend the code (add operations, add tests, refactor)
-5. Move to the next topic
+---
 
-Tip: Don’t jump across topics randomly. Go one folder at a time and keep notes.
+## Quick links
 
-## Repository structure
+- Main content:  
+  https://github.com/saqibbedar/dsa/tree/main/Data%20Structures%20%26%20Algorithms
+- Assignments:  
+  https://github.com/saqibbedar/dsa/tree/main/Assignments
+- DSA Friday Lab:  
+  https://github.com/saqibbedar/dsa/tree/main/DSA%20Friday%20Lab
+- Quick C++ Revision:  
+  https://github.com/saqibbedar/dsa/tree/main/Quick%20C%2B%2B%20Revision
 
-Main folders you will use:
+---
 
-### Data Structures & Algorithms
-Path: `Data Structures & Algorithms/`
+## Topics (examples you’ll see in the repo)
 
-This is the main content folder. Topics are organized into separate directories, for example:
-- LinkedList
+Inside `Data Structures & Algorithms/` you’ll find topic folders such as:
+
+- Linked List
 - Stack
 - Queue
-- Priority-Queue
-- Binary Search Tree
+- Priority Queue
+- Trees / Binary Search Tree
 - Sorting Algorithms
 - Recursion
 - Iterators
 
-Direct link:
-https://github.com/saqibbedar/dsa/tree/main/Data%20Structures%20%26%20Algorithms
+(Exact folders may vary—this repo is intended to grow over time.)
 
-### Assignments
-Path: `Assignments/`
+---
 
-Coursework-style assignments for practice and reinforcement.
+## Run code locally
 
-### DSA Friday Lab
-Path: `DSA Friday Lab/`
+Most code is designed to compile and run independently (file-by-file or folder-by-folder).
 
-Lab-style practice content. Good for building consistency and speed.
-
-### Quick C++ Revision
-Path: `Quick C++ Revision/`
-
-A compact revision area for C++ basics that are important for DSA (pointers, references, templates, STL basics).
-
-### Past Pappers
-Path: `Past Pappers/`
-
-Past-paper style material for revision and exam-style practice.
-
-### docker-guide
-Path: `docker-guide/`
-
-Notes and guidance related to using Docker for a consistent environment.
-
-### Notes
-Files like `NOTES.yaml` and various `about-this-folder.yaml` files are included to keep the repo navigable and structured.
-
-## Running code locally
-
-This repository contains multiple independent topic folders. Most files are designed to compile and run individually.
-
-Typical compile and run commands:
+### Compile and run a single file
 
 ```bash
 g++ -std=c++17 file.cpp -o app
 ./app
 ```
 
-If a folder contains multiple `.cpp` files that depend on each other, compile them together:
+### Compile multiple files together (if a topic uses more than one `.cpp`)
 
 ```bash
 g++ -std=c++17 main.cpp other.cpp -o app
 ./app
 ```
 
-If you run into missing includes or name collisions, compile one folder at a time.
+Notes:
+- If you get missing include errors or symbol collisions, compile **one topic folder at a time**.
+- Prefer a modern compiler (GCC/Clang) and at least **C++17**.
 
-## Contributing
+---
 
-Contributions are welcome. If you are a developer, you can help by:
-- fixing bugs
-- improving code clarity and naming
-- adding missing operations and edge case handling
-- adding new topics in the same structured style
-- adding small test drivers or usage examples
+## Contribution
 
-Contribution guidelines are available here:
-- `Contribute/CONTRIBUTE.yaml`
+Contributions are welcome—especially improvements that keep the repo consistent and easy to learn from.
+
+Suggested contributions:
+- improve naming + comments
+- add missing operations + edge cases
+- add small driver examples (`main.cpp`) for topics
+- fix bugs and simplify implementations
 
 General flow:
-1. Fork the repository
-2. Create a new branch
-3. Make changes and test them
-4. Open a pull request with a clear description
+1. Fork the repo
+2. Create a branch
+3. Make changes and test
+4. Open a PR with a clear description
 
-## Related repositories (C++ fundamentals)
-
-This repo focuses on DSA. If you want more C++ fundamentals before going deep into DSA, you can also explore:
-- C++ basics and pointers: `saqibbedar/CPlusPlusLearningHub`
-- OOP notes: `saqibbedar/Cpp-OOP-Notes`
+---
 
 ## License
 
-MIT License. See `LICENSE`.
+MIT License — see [`LICENSE`](./LICENSE).
